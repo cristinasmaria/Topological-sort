@@ -1,0 +1,25 @@
+/**
+ * @file main.c
+ * @brief Main file where all the functions are called from.
+ *
+ * @author Popescu Cristina-Maria
+ *
+ * Allows the user to select options based on what he wants from the program.
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <windows.h>
+#include "functions.h"
+
+
+
+int main()
+ /**
+     * @fn int main()
+     * @brief Main function that takes user input for generating output
+     */
+{ int choice;
+  options(choice);
+    return 0;
+}
